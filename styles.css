@@ -1,8 +1,67 @@
-:root { --brand: #0ea5e9; }
-.navbar-brand { font-weight: 700; letter-spacing: .2px; }
-h1, h2 { scroll-margin-top: 90px; }
-.sidebar-item { font-size: 0.95rem; }
-.card { border-radius: 1rem; }
-.badge { border-radius: 999px; padding: .35rem .6rem; }
-.callout { border-radius: 1rem; }
-figure img { border-radius: .75rem; }
+/* General site tweaks */
+:root { 
+  --brand: #0ea5e9; 
+}
+
+.navbar-brand { 
+  font-weight: 700; 
+  letter-spacing: .2px; 
+}
+
+h1, h2 { 
+  scroll-margin-top: 90px; 
+}
+
+.sidebar-item { 
+  font-size: 0.95rem; 
+}
+
+.card { 
+  border-radius: 1rem; 
+}
+
+.badge { 
+  border-radius: 999px; 
+  padding: .35rem .6rem; 
+}
+
+.callout { 
+  border-radius: 1rem; 
+}
+
+figure img { 
+  border-radius: .75rem; 
+}
+
+/* --- Custom layout for intro with photo --- */
+.intro-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap; /* allow wrapping on small screens */
+}
+
+.intro-text {
+  flex: 1 1 60%;
+}
+
+.intro-photo img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* On mobile, photo goes below text */
+@media (max-width: 768px) {
+  .intro-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .intro-photo {
+    margin-top: 1rem;
+  }
+}
