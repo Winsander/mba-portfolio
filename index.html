@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="hi-im-winston" class="level1">
 <h1>Hi, I’m Winston 👋</h1>
-<p><img src="assets/profile.jpg" alt="Winston Christopher" class="intro-photo"></p>
+<p><img src="assets/profile.jpg" alt="Winston Christopher" class="photo-card show"></p>
 <p>I’m an MBA candidate at <strong>University Canada West</strong>, with a B.Sc. in <strong>Agriculture (TNAU, 2018–2022)</strong>.<br>
 I focus on <strong>marketing strategy</strong>, <strong>product thinking</strong>, and <strong>AI-assisted analysis</strong>.<br>
 This site expands my one-page portfolio into a multi-page view of my work, skills, and interests.</p>
@@ -218,6 +218,10 @@ Quick Links
 </main> <!-- /main -->
 // scripts.js
 
+
+
+// Navbar background toggle on scroll
+
 window.addEventListener("scroll", function () {
 
   if (window.scrollY &gt; 50) {
@@ -227,6 +231,22 @@ window.addEventListener("scroll", function () {
   } else {
 
     document.body.classList.remove("scrolled");
+
+  }
+
+});
+
+
+
+// Fade-in animation for profile photo card
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const photo = document.querySelector(".photo-card");
+
+  if (photo) {
+
+    photo.classList.add("fade-in");
 
   }
 

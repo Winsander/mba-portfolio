@@ -173,6 +173,10 @@ For now, email/LinkedIn are best.</p>
 </main> <!-- /main -->
 // scripts.js
 
+
+
+// Navbar background toggle on scroll
+
 window.addEventListener("scroll", function () {
 
   if (window.scrollY &gt; 50) {
@@ -182,6 +186,22 @@ window.addEventListener("scroll", function () {
   } else {
 
     document.body.classList.remove("scrolled");
+
+  }
+
+});
+
+
+
+// Fade-in animation for profile photo card
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const photo = document.querySelector(".photo-card");
+
+  if (photo) {
+
+    photo.classList.add("fade-in");
 
   }
 
