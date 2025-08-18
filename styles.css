@@ -1,64 +1,151 @@
-/* Intro layout */
+/* ================================
+   Global Styles
+================================== */
+:root {
+  --brand: #0ea5e9;   /* main accent color */
+  --text-dark: #222;
+  --text-light: #555;
+  --bg-light: #ffffff;
+  --shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  background: var(--bg-light);
+  margin: 0;
+  padding: 0;
+}
+
+/* ================================
+   Navbar
+================================== */
+.navbar {
+  background: var(--brand);
+  padding: 0.75rem 1.5rem;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 0.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #f3f3f3;
+}
+
+/* ================================
+   Headings
+================================== */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+  scroll-margin-top: 90px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.3rem;
+}
+
+/* ================================
+   Intro Section (Text + Photo)
+================================== */
 .intro-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
-  flex-wrap: wrap; /* so it stacks on mobile */
+  flex-wrap: wrap;
+  margin: 1.5rem 0 2rem;
 }
 
-/* Intro text */
+/* text block */
 .intro-text {
-  flex: 2;
-  min-width: 260px;
+  flex: 1 1 60%;
+  min-width: 280px;
 }
 
-/* Photo card */
+/* photo block */
 .intro-photo {
-  flex: 1;
+  flex: 1 1 35%;
+  min-width: 220px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-width: 220px;
 }
 
 .intro-photo img {
-  width: 240px;
+  max-width: 220px;
+  width: 100%;
   height: auto;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   background: #fff;
   padding: 6px;
-  animation: slideIn 0.9s ease forwards;
-  opacity: 0; /* fade until loaded */
+  box-shadow: var(--shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* Hover polish */
 .intro-photo img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-  transition: all 0.3s ease;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.18);
 }
 
-/* Fade + slide-in animation */
-@keyframes slideIn {
-  from {
-    transform: translateY(-25px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+/* ================================
+   Quick Links
+================================== */
+.quick-links {
+  max-width: 420px;
+  margin-top: 1rem;
+  background: #f9f9f9;
+  border-left: 4px solid var(--brand);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-/* Mobile tweaks */
+.quick-links:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.quick-links a {
+  text-decoration: none;
+  color: var(--brand);
+  font-weight: 500;
+}
+
+.quick-links a:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+   Lists
+================================== */
+ul {
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* ================================
+   Mobile Responsive
+================================== */
 @media (max-width: 768px) {
   .intro-header {
     flex-direction: column;
-    align-items: center;
     text-align: center;
   }
 
@@ -72,6 +159,11 @@
   }
 
   .intro-photo img {
-    width: 180px;
+    max-width: 180px;
+  }
+
+  .quick-links {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
