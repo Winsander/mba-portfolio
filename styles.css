@@ -33,55 +33,72 @@ figure img {
   border-radius: .75rem; 
 }
 
-/* --- Profile photo card --- */
-.photo-card {
-  width: 220px;
-  border-radius: 1rem;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-  display: block;
-  margin: 1rem auto;
-  background: #fff;
-  padding: 0.5rem;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.8s ease, transform 0.8s ease, transform 0.3s ease-in-out;
+/* --- Intro section layout --- */
+.intro-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap; /* allow wrapping on small screens */
 }
 
-.photo-card.fade-in {
+.intro-text {
+  flex: 1 1 60%;
+}
+
+.intro-photo img {
+  width: 220px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background: #fff;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.intro-photo img.fade-in {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Hover zoom effect */
-.photo-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* --- Quick Links responsive style --- */
+.quick-links {
+  margin-top: 1rem;
+  max-width: 400px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* --- Navbar slide-in animation --- */
+.quick-links:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 768px) {
+  .intro-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .intro-photo {
+    margin-top: 1rem;
+  }
+  .quick-links {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* --- Navbar animation --- */
 .navbar {
   transform: translateY(-100%);
   opacity: 0;
-  animation: slideInTop 0.8s ease-out forwards;
+  transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
-@keyframes slideInTop {
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-/* --- Scroll effect for navbar (blue background after scroll) --- */
-body.scrolled .navbar {
-  background-color: var(--brand) !important;
-  transition: background-color 0.3s ease;
-}
-
-/* --- Mobile tweaks --- */
-@media (max-width: 768px) {
-  .photo-card {
-    width: 150px;
-  }
+.navbar.show {
+  transform: translateY(0);
+  opacity: 1;
 }
