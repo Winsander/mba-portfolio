@@ -33,18 +33,56 @@ figure img {
   border-radius: .75rem; 
 }
 
-/* --- Intro section with photo --- */
+/* --- Transparent navbar over hero banner --- */
+.navbar {
+  background: transparent !important;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: none;
+}
+
+.navbar a {
+  color: white !important;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: var(--brand) !important;
+}
+
+/* --- Hero banner --- */
+.hero-banner {
+  width: 100%;
+  margin: 0 auto 2rem auto;
+  position: relative;
+}
+
+.hero-banner img {
+  display: block;
+  width: 100%;
+  height: 320px;       /* height for desktop */
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* --- Intro section with profile photo --- */
 .intro-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
   margin-top: 1rem;
-  flex-wrap: wrap; /* allow wrapping on small screens */
+  flex-wrap: wrap;
 }
 
 .intro-text {
   flex: 1 1 60%;
+}
+
+.intro-photo {
+  flex: 0 0 auto;
 }
 
 .intro-photo img {
@@ -52,8 +90,8 @@ figure img {
   height: 170px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid var(--brand);   /* brand-colored circular border */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 4px solid var(--brand);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 /* --- Mobile view adjustments --- */
@@ -62,28 +100,16 @@ figure img {
     flex-direction: column;
     text-align: center;
   }
+
   .intro-photo {
     margin-top: 1rem;
   }
-}
 
-/* --- Hero banner --- */
-.hero-banner {
-  width: 100%;
-  margin: 0 auto 2rem auto; /* space below the banner */
-}
-
-.hero-banner img {
-  display: block;
-  width: 100%;
-  height: 280px;       /* adjust height as you like */
-  object-fit: cover;   /* crops without squishing */
-  border-radius: 0;    /* ensures straight edges */
-}
-
-/* --- Mobile banner height adjustment --- */
-@media (max-width: 768px) {
   .hero-banner img {
-    height: 180px; /* smaller height for phones */
+    height: 200px; /* shorter banner for mobile */
+  }
+
+  .navbar a {
+    color: white !important;
   }
 }
