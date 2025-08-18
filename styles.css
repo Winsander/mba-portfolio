@@ -3,33 +3,9 @@
   --brand: #0ea5e9; 
 }
 
-.navbar {
-  background: var(--brand) !important;   /* solid blue navbar */
-  position: fixed;                       /* stick to top */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.navbar a {
-  color: white !important;
-  font-weight: 600;
-}
-
-.navbar a:hover {
-  color: #f0f0f0 !important;
-}
-
 .navbar-brand { 
   font-weight: 700; 
   letter-spacing: .2px; 
-}
-
-/* Add padding so content is not hidden behind navbar */
-body {
-  padding-top: 70px;   /* adjust if navbar is taller/shorter */
 }
 
 h1, h2 { 
@@ -57,41 +33,70 @@ figure img {
   border-radius: .75rem; 
 }
 
-/* --- Intro section with profile photo --- */
-.intro-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  margin-top: 1rem;
-  flex-wrap: wrap;
+/* --- Photo card styling --- */
+.photo-card {
+  float: right;
+  margin: 0 0 1.5rem 1.5rem;
+  width: 220px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+  padding: 8px;
+  opacity: 0;
+  transform: translateY(6px);
+  animation: photoFadeIn .6s ease-out .1s forwards;
 }
 
-.intro-text {
-  flex: 1 1 60%;
+/* Subtle fade-in keyframes */
+@keyframes photoFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.intro-photo {
-  flex: 0 0 auto;
+@media (prefers-reduced-motion: reduce) {
+  .photo-card {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
 }
 
-.intro-photo img {
-  width: 170px;
-  height: 170px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid var(--brand);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-/* --- Mobile view adjustments --- */
+/* --- Responsive adjustments --- */
 @media (max-width: 768px) {
-  .intro-header {
-    flex-direction: column;
-    text-align: center;
+  .photo-card {
+    float: none;
+    display: block;
+    margin: 1rem auto;
   }
+}
 
-  .intro-photo {
-    margin-top: 1rem;
-  }
+/* --- Navbar transparent over banner --- */
+.navbar {
+  background: transparent !important;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: none;
+  transition: background 0.3s ease;
+}
+
+.navbar a {
+  color: white !important;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: var(--brand) !important;
+}
+
+/* Solid navbar after scrolling */
+.scrolled .navbar {
+  background: var(--brand) !important;
+}
+
+.scrolled .navbar a {
+  color: white !important;
 }
