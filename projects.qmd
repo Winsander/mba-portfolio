@@ -1,0 +1,30 @@
+---
+title: "Projects & Case Studies"
+page-layout: article
+---
+
+# Projects & Case Studies
+
+::: callout-note
+## Netflix Advertising Campaign (Marketing Report)
+**Goal:** Recommend a launch strategy for Netflix ads.  
+**Role:** Research, analysis, and APA-style report writing in Quarto.  
+**Highlights:** Audience segmentation, ad formats, creative tests, and measurement plan.  
+**Artifacts:** Report draft, outline generated with LLM (see Appendix), Quarto PDF.
+:::
+
+::: callout-note
+## MyChef Connex — Organizational Diagnosis
+**Goal:** Diagnose HR/strategy alignment for a culinary staffing firm in BC.  
+**Focus:** Seasonality, client acquisition, marketing, and operational resilience.  
+**Methods:** SWOT, PESTEL, Five Forces; interview transcript review.  
+**Outcome:** Clear recommendations for marketing, partnerships, and pipeline management.
+:::
+
+::: callout-note
+## CompassTap — Student Transit App
+**Goal:** Combine navigation with student discounts and safety updates.  
+**Why:** Students face unpredictable commutes and scattered deal info.  
+**Positioning:** “Navigation built for Metro Vancouver students.”  
+**Next:** Figma wireframes and competitive matrix.
+:::

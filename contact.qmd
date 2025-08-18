@@ -1,0 +1,11 @@
+---
+title: "Contact"
+page-layout: article
+---
+
+# Contact
+
+- Email: <winstonchrist99@gmail.com>
+- LinkedIn: <https://www.linkedin.com/in/winston-christopher>
+
+> Tip: You can add a contact form using services like Formspree or Basin. For now, email/LinkedIn are best.

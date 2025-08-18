@@ -1,0 +1,27 @@
+---
+title: "Appendix — LLM Drafts & Revisions"
+page-layout: article
+---
+
+# LLM-Suggested Site Map (Saved for Appendix)
+
+- Home/About
+- Resume / CV
+- Projects & Case Studies
+- Skills & Certifications
+- Contact
+- (Optional) Leadership & Community
+
+# LLM Draft Excerpts (Annotated)
+
+## Home/About (LLM Draft → My Edits)
+- **LLM Draft:** "Winston is an MBA student passionate about leveraging cutting-edge tools to drive impact."
+- **My Edit:** "I'm an MBA candidate who likes clear thinking, clean writing, and practical tools that help teams move faster."
+
+## Projects (LLM Draft → My Edits)
+- **LLM Draft:** "Include 5–7 high-profile projects with metrics."
+- **My Edit:** I listed the three that matter right now and added context I can stand behind. I removed unverifiable metrics.
+
+## Skills (LLM Draft → My Edits)
+- **LLM Draft:** "Expert in Python, SQL, and machine learning."
+- **My Edit:** Accurate skills for today: Quarto/Markdown, PowerPoint/Excel, Figma basics, and using LLMs for drafting and editing.

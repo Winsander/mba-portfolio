@@ -1,0 +1,24 @@
+---
+title: "Resume / CV"
+page-layout: article
+---
+
+# Resume
+
+Download: **[Resume (PDF)](assets/Winston_Christopher_Resume.pdf)**
+
+## Education
+- **MBA**, University Canada West — *Expected 2025*
+- **B.Sc. Agriculture**, Tamil Nadu Agricultural University (TNAU) — *2018–2022*
+
+## Projects
+- **Netflix Advertising Strategy (BUSI 654)** — Market and creative recommendations for ad-supported tier.
+- **Organizational Diagnosis — MyChef Connex** — HR and operations analysis for culinary staffing in BC.
+- **CompassTap** — Student-focused transit and deals app concept for Metro Vancouver.
+
+## Coursework & Tools
+- Strategy, Marketing Analytics, Design Thinking, Prototyping
+- Tools: Quarto, Markdown, Excel, PowerPoint, Figma, basic Python; LLMs for ideation & drafting
+
+## Achievements
+- Completed Coursera **Intro to Basic Game Development (Scratch)**

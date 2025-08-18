@@ -1,0 +1,8 @@
+:root { --brand: #0ea5e9; }
+.navbar-brand { font-weight: 700; letter-spacing: .2px; }
+h1, h2 { scroll-margin-top: 90px; }
+.sidebar-item { font-size: 0.95rem; }
+.card { border-radius: 1rem; }
+.badge { border-radius: 999px; padding: .35rem .6rem; }
+.callout { border-radius: 1rem; }
+figure img { border-radius: .75rem; }

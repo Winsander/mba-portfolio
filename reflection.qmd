@@ -1,0 +1,14 @@
+---
+title: "Reflection on LLM Use (Assignment 3)"
+page-layout: article
+---
+
+# Reflection (300–500 words)
+
+Expanding the site from a single page to multiple pages made my process more structured. For brainstorming, I used an LLM to propose a site map and initial copy for each page. That worked well for breaking the blank-page problem and for suggesting headings I might have missed (for example, adding a separate **Leadership** page and moving contact info into its own page). As the site grew, the LLM also helped me rephrase sentences to be clearer and more concise so that each page stayed focused.
+
+To keep the content authentic, I followed a simple rule: the LLM can *suggest*, but I decide and rewrite. I replaced generic language with my own details (courses I actually took, real assignments I completed, and the tools I know). I also cross-checked dates and course codes. For projects, I added context from my own notes instead of trying to invent new claims. Where I referenced ideas or statistics, I either cited sources in APA or removed the claim. When an LLM recommended something I couldn’t verify, I left it out.
+
+Technically, Quarto made the expansion straightforward. I split content into **.qmd** files, configured navigation in **_quarto.yml**, and added a minimal **styles.css**. This improved readability and made the site easier to maintain. I found it helpful to keep sections short, use callouts for quick links, and add internal links between pages (e.g., Projects → Resume).
+
+Overall, the LLM improved my speed and organization, but the quality depended on my editing. The key is to use the model to draft and then apply my own judgment to refine, verify, and personalize. That balance kept the site accurate and in my voice while still benefiting from AI assistance.

@@ -1,0 +1,21 @@
+---
+title: "Skills & Certifications"
+page-layout: article
+---
+
+# Skills & Certifications
+
+## Core Skills
+- Marketing strategy, briefs, and reports (APA-capable)
+- Product thinking and basic prototyping
+- Data organization and analysis
+- Clear, human writing
+
+## Tools
+- Quarto, Markdown
+- PowerPoint, Excel
+- Figma (wireframing)
+- LLMs for brainstorming, outlining, and editing
+
+## Certifications & Learning
+- Coursera: Introduction to Basic Game Development (Scratch)

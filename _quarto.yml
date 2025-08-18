@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Winston Christopher — MBA Portfolio"
+  site-url: https://winsander.github.io/mba-portfolio/
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Resume
+        href: resume.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Skills
+        href: skills.qmd
+      - text: Leadership
+        href: leadership.qmd
+      - text: Contact
+        href: contact.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/winston-christopher1905
+      - icon: github
+        href: https://github.com/winsander/mba-portfolio
+  page-footer:
+    left: "© 2025 Winston Christopher"
+    right: "Built with Quarto"
