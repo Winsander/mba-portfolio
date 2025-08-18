@@ -4,21 +4,21 @@
     "href": "skills.html",
     "title": "Skills & Certifications",
     "section": "",
-    "text": "Marketing strategy, briefs, and reports (APA-capable)\nProduct thinking and basic prototyping\nData organization and analysis\nClear, human writing\n\n\n\n\n\nQuarto, Markdown\nPowerPoint, Excel\nFigma (wireframing)\nLLMs for brainstorming, outlining, and editing\n\n\n\n\n\nCoursera: Introduction to Basic Game Development (Scratch)"
+    "text": "Marketing Strategy Product Thinking Business Writing APA Formatting\n\n\n\nQuarto Markdown Excel PowerPoint Figma LLMs (Outline & Edit)\n\n\n\n\nCoursera: Introduction to Basic Game Development (Scratch)\n\n\n\n\n\nEvaluating LLMs for business tasks\n\nClear writing that moves work forward\n\nSimple prototypes that make decisions easier"
   },
   {
     "objectID": "skills.html#core-skills",
     "href": "skills.html#core-skills",
     "title": "Skills & Certifications",
     "section": "",
-    "text": "Marketing strategy, briefs, and reports (APA-capable)\nProduct thinking and basic prototyping\nData organization and analysis\nClear, human writing"
+    "text": "Marketing Strategy Product Thinking Business Writing APA Formatting"
   },
   {
     "objectID": "skills.html#tools",
     "href": "skills.html#tools",
     "title": "Skills & Certifications",
     "section": "",
-    "text": "Quarto, Markdown\nPowerPoint, Excel\nFigma (wireframing)\nLLMs for brainstorming, outlining, and editing"
+    "text": "Quarto Markdown Excel PowerPoint Figma LLMs (Outline & Edit)"
   },
   {
     "objectID": "skills.html#certifications-learning",
@@ -26,6 +26,13 @@
     "title": "Skills & Certifications",
     "section": "",
     "text": "Coursera: Introduction to Basic Game Development (Scratch)"
+  },
+  {
+    "objectID": "skills.html#interests",
+    "href": "skills.html#interests",
+    "title": "Skills & Certifications",
+    "section": "",
+    "text": "Evaluating LLMs for business tasks\n\nClear writing that moves work forward\n\nSimple prototypes that make decisions easier"
   },
   {
     "objectID": "reflection.html",
@@ -46,7 +53,7 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Contact\n\nEmail: winstonchrist99@gmail.com\n\nLinkedIn: https://www.linkedin.com/in/winston-christopher\n\n\nTip: You can add a contact form using services like Formspree or Basin.\nFor now, email/LinkedIn are best."
+    "text": "Contact\n\nDrop me a line\nYou can reach me at:\nEmail: winstonchrist99@gmail.com\nLinkedIn: linkedin.com/in/winston-christopher\nOr send a message right here:\n\nYour Email \nMessage\n\n\nSend Message"
   },
   {
     "objectID": "appendix.html",
@@ -102,41 +109,48 @@
     "href": "projects.html",
     "title": "Projects & Case Studies",
     "section": "",
-    "text": "Projects & Case Studies\n\n\n\n\n\n\nNetflix Advertising Campaign (Marketing Report)\n\n\n\nGoal: Recommend a launch strategy for Netflix ads.\nRole: Research, analysis, and APA-style report writing in Quarto.\nHighlights: Audience segmentation, ad formats, creative tests, and measurement plan.\nArtifacts: Report draft, outline generated with LLM (see Appendix), Quarto PDF.\n\n\n\n\n\n\n\n\nMyChef Connex — Organizational Diagnosis\n\n\n\nGoal: Diagnose HR/strategy alignment for a culinary staffing firm in BC.\nFocus: Seasonality, client acquisition, marketing, and operational resilience.\nMethods: SWOT, PESTEL, Five Forces; interview transcript review.\nOutcome: Clear recommendations for marketing, partnerships, and pipeline management.\n\n\n\n\n\n\n\n\nCompassTap — Student Transit App\n\n\n\nGoal: Combine navigation with student discounts and safety updates.\nWhy: Students face unpredictable commutes and scattered deal info.\nPositioning: “Navigation built for Metro Vancouver students.”\nNext: Figma wireframes and competitive matrix."
+    "text": "Projects & Case Studies\n\n\n\nNetflix Advertising Strategy\n\n\nMarketing Report • BUSI 654\n\n\n\nAudience segmentation and ad format recommendations\n\n\nCreative testing plan and success metrics\n\n\nAPA deliverable built and exported via Quarto\n\n\n\n\n\nMyChef Connex — Organizational Diagnosis\n\n\nOperations & HR\n\n\n\nSeasonality and staffing pipeline analysis\n\n\nPESTEL, Five Forces, and SWOT summary\n\n\nMarketing and partnership recommendations\n\n\n\n\n\nCompassTap (Student Transit App)\n\n\nConcept & Positioning\n\n\n\n“Navigation for Metro Vancouver students” positioning\n\n\nDeals + safety updates in one interface\n\n\nNext: Figma wireframes and competitive map"
   },
   {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume / CV",
     "section": "",
-    "text": "Download: Resume (PDF)\n\n\n\nMBA, University Canada West — Expected 2025\nB.Sc. Agriculture, Tamil Nadu Agricultural University (TNAU) — 2018–2022\n\n\n\n\n\nNetflix Advertising Strategy (BUSI 654) — Market and creative recommendations for ad-supported tier.\nOrganizational Diagnosis — MyChef Connex — HR and operations analysis for culinary staffing in BC.\nCompassTap — Student-focused transit and deals app concept for Metro Vancouver.\n\n\n\n\n\nStrategy, Marketing Analytics, Design Thinking, Prototyping\nTools: Quarto, Markdown, Excel, PowerPoint, Figma, basic Python; LLMs for ideation & drafting\n\n\n\n\n\nCompleted Coursera Intro to Basic Game Development (Scratch)"
+    "text": "Download: Resume (PDF)\n\n\n\nMBA, University Canada West — Expected 2025\nB.Sc. Agriculture, TNAU — 2018–2022\n\n\n\n\n\nCourse Projects (MBA) — Strategy, marketing analysis, and APA deliverables using Quarto.\n\nRan structured outlines with LLMs; rewrote for clarity and accuracy.\n\nBuilt a multi-page portfolio site and published to GitHub Pages.\n\n\n\n\n\n\nNetflix Advertising Strategy (BUSI 654)\nAudience segmentation, ad formats, creative testing plan, measurement framework.\nMyChef Connex — Org Diagnosis\nHR/ops alignment, seasonality and pipeline risks, marketing/partnership recommendations.\nCompassTap (Student Transit App)\nConcept, positioning, early wireframes; student deals + transit info.\n\n\n\n\n\nSkills: Marketing strategy, product thinking, business writing, APA formatting\n\nTools: Quarto/Markdown, Excel, PowerPoint, Figma, LLMs (outlining + editing)\n\n\n\n\n\nCoursera: Introduction to Basic Game Development (Scratch)"
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
     "title": "Resume / CV",
     "section": "",
-    "text": "MBA, University Canada West — Expected 2025\nB.Sc. Agriculture, Tamil Nadu Agricultural University (TNAU) — 2018–2022"
+    "text": "MBA, University Canada West — Expected 2025\nB.Sc. Agriculture, TNAU — 2018–2022"
+  },
+  {
+    "objectID": "resume.html#experience-selected",
+    "href": "resume.html#experience-selected",
+    "title": "Resume / CV",
+    "section": "",
+    "text": "Course Projects (MBA) — Strategy, marketing analysis, and APA deliverables using Quarto.\n\nRan structured outlines with LLMs; rewrote for clarity and accuracy.\n\nBuilt a multi-page portfolio site and published to GitHub Pages."
   },
   {
     "objectID": "resume.html#projects",
     "href": "resume.html#projects",
     "title": "Resume / CV",
     "section": "",
-    "text": "Netflix Advertising Strategy (BUSI 654) — Market and creative recommendations for ad-supported tier.\nOrganizational Diagnosis — MyChef Connex — HR and operations analysis for culinary staffing in BC.\nCompassTap — Student-focused transit and deals app concept for Metro Vancouver."
+    "text": "Netflix Advertising Strategy (BUSI 654)\nAudience segmentation, ad formats, creative testing plan, measurement framework.\nMyChef Connex — Org Diagnosis\nHR/ops alignment, seasonality and pipeline risks, marketing/partnership recommendations.\nCompassTap (Student Transit App)\nConcept, positioning, early wireframes; student deals + transit info."
   },
   {
-    "objectID": "resume.html#coursework-tools",
-    "href": "resume.html#coursework-tools",
+    "objectID": "resume.html#skills-tools",
+    "href": "resume.html#skills-tools",
     "title": "Resume / CV",
     "section": "",
-    "text": "Strategy, Marketing Analytics, Design Thinking, Prototyping\nTools: Quarto, Markdown, Excel, PowerPoint, Figma, basic Python; LLMs for ideation & drafting"
+    "text": "Skills: Marketing strategy, product thinking, business writing, APA formatting\n\nTools: Quarto/Markdown, Excel, PowerPoint, Figma, LLMs (outlining + editing)"
   },
   {
-    "objectID": "resume.html#achievements",
-    "href": "resume.html#achievements",
+    "objectID": "resume.html#certifications",
+    "href": "resume.html#certifications",
     "title": "Resume / CV",
     "section": "",
-    "text": "Completed Coursera Intro to Basic Game Development (Scratch)"
+    "text": "Coursera: Introduction to Basic Game Development (Scratch)"
   }
 ]
