@@ -26,3 +26,17 @@ website:
   page-footer:
     left: "© 2025 Winston Christopher"
     right: "Built with Quarto"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: slate
+    css: styles.css
+    toc: true
+    toc-location: left
+    number-sections: false
+    smooth-scroll: true
+
+metadata-files:
+  - _meta.yml
