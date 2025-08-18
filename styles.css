@@ -33,22 +33,29 @@ figure img {
   border-radius: .75rem; 
 }
 
-/* --- Profile photo (simple float layout) --- */
+/* --- Profile photo (float layout) --- */
 .intro-photo {
-  width: 170px;              /* photo size */
-  height: auto;              /* keep aspect ratio */
-  border-radius: 50%;        /* make it circular */
-  float: right;              /* move to top-right corner */
-  margin: 0 0 1rem 1rem;     /* spacing: top, right, bottom, left */
+  width: 170px;
+  height: auto;
+  border-radius: 50%;             /* circular photo */
+  float: right;                   /* top-right placement on desktop */
+  margin: 0 0 1rem 1rem;          /* spacing around photo */
   border: 4px solid var(--brand); /* brand-colored circular border */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* subtle shadow */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* On mobile, center the photo below name */
+/* Optional: hover effect for interactivity */
+.intro-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* --- Mobile view adjustments --- */
 @media (max-width: 768px) {
   .intro-photo {
-    float: none;
-    display: block;
-    margin: 1rem auto; /* center horizontally */
+    float: none;          /* stop floating on small screens */
+    display: block;       /* ensure it’s treated like a block */
+    margin: 1rem auto;    /* center horizontally */
   }
 }
