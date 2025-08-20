@@ -107,68 +107,110 @@ figure img {
   background: #0c7cb9;
 }
 
-/* --- Badge styles for Skills & Tools --- */
-.badge-row {
+/* --- skill form styling --- */
+
+/* === General Reset === */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+/* === Section Headings === */
+h1, h2, h3 {
+  color: #222;
+  margin-bottom: 0.6em;
+}
+
+/* === Skill Badges === */
+.badges {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
+  gap: 12px;
+  margin-bottom: 2rem;
 }
 
-.tag {
+.badge {
   display: inline-block;
-  padding: 0.4rem 0.8rem;
-  border-radius: 999px;
-  font-size: 0.9rem;
+  padding: 8px 16px;
   font-weight: 600;
-  color: white;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
 }
 
-.tag:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+.badge:hover {
+  transform: translateY(-2px);
 }
 
-/* Skill badge colors */
-.tag--skill { background-color: #0ea5e9; }   /* bright blue */
-.tag--tool  { background-color: #16a34a; }   /* green */
+/* Blue = Core Skills */
+.badge.blue {
+  background: #009fe3;
+}
 
-/* --- Certification Cards --- */
+/* Green = Tools */
+.badge.green {
+  background: #28a745;
+}
+
+/* === Certifications === */
 .certs {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 1rem;
 }
 
 .cert-card {
   background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 1rem;
-  padding: 1rem 1.2rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .cert-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
 }
 
 .cert-head {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
-  margin-bottom: 0.8rem;
+  gap: 12px;
+  margin-bottom: 12px;
 }
 
 .cert-logo {
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
+  width: 40px;
+  height: 40px;
   border-radius: 6px;
-  background: white;
-  border: 1px solid #ddd;
-  padding: 2px;
+  object-fit: contain;
+}
+
+.cert-card h3 {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #222;
+}
+
+.cert-card p {
+  font-size: 0.95rem;
+  margin: 0.4rem 0 0;
+  color: #444;
+}
+
+/* === Responsive tweaks === */
+@media (max-width: 600px) {
+  .badges {
+    justify-content: center;
+  }
+  
+  .certs {
+    grid-template-columns: 1fr;
+  }
 }
