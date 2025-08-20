@@ -4,35 +4,28 @@
     "href": "skills.html",
     "title": "Skills & Certifications",
     "section": "",
-    "text": "Marketing Strategy\nProduct Thinking\nBusiness & APA Writing\nResearch & Analysis\nPresentation Design"
+    "text": "Marketing Strategy Product Thinking Business & APA Writing Research & Analysis Presentation Design"
   },
   {
-    "objectID": "skills.html#core-skills",
-    "href": "skills.html#core-skills",
+    "objectID": "skills.html#core-skills-badges",
+    "href": "skills.html#core-skills-badges",
     "title": "Skills & Certifications",
     "section": "",
-    "text": "Marketing Strategy\nProduct Thinking\nBusiness & APA Writing\nResearch & Analysis\nPresentation Design"
+    "text": "Marketing Strategy Product Thinking Business & APA Writing Research & Analysis Presentation Design"
   },
   {
-    "objectID": "skills.html#tools",
-    "href": "skills.html#tools",
+    "objectID": "skills.html#tools-badges",
+    "href": "skills.html#tools-badges",
     "title": "Skills & Certifications",
-    "section": "Tools",
-    "text": "Tools\n\nQuarto / Markdown\nExcel\nPowerPoint\nFigma\nLLMs (Outline & Edit)"
+    "section": "Tools (Badges)",
+    "text": "Tools (Badges)\n\nQuarto / Markdown Excel PowerPoint Figma LLMs (Outline & Edit)"
   },
   {
     "objectID": "skills.html#certifications",
     "href": "skills.html#certifications",
     "title": "Skills & Certifications",
     "section": "Certifications",
-    "text": "Certifications\n\nIntroduction to Basic Game Development using Scratch\n\nIssuer: Coursera Project Network\n\nIssued: Aug 2025\n\n\n\nMaster Microsoft Excel\n\nIssuer: LinkedIn\n\nIssued: Aug 2024\n\nSkill: Microsoft Excel"
-  },
-  {
-    "objectID": "skills.html#interests",
-    "href": "skills.html#interests",
-    "title": "Skills & Certifications",
-    "section": "Interests",
-    "text": "Interests\n\nEvaluating LLMs for business tasks\n\nClear, human-centered writing\n\nSimple prototypes that help decisions"
+    "text": "Certifications\n\n\n&lt;div class=\"cert-head\"&gt;\n  &lt;span class=\"tag tag--cert\"&gt;Certificate&lt;/span&gt;\n  &lt;h3&gt;Introduction to Basic Game Development using Scratch&lt;/h3&gt;\n&lt;/div&gt;\n&lt;ul&gt;\n  &lt;li&gt;&lt;strong&gt;Issuer:&lt;/strong&gt; Coursera Project Network&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;Issued:&lt;/strong&gt; Aug 2025&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;Credential ID:&lt;/strong&gt; JOYBMPGPL9J3&lt;/li&gt;\n&lt;/ul&gt;\n\n\n&lt;div class=\"cert-head\"&gt;\n  &lt;span class=\"tag tag--cert\"&gt;Certificate&lt;/span&gt;\n  &lt;h3&gt;Master Microsoft Excel&lt;/h3&gt;\n&lt;/div&gt;\n&lt;ul&gt;\n  &lt;li&gt;&lt;strong&gt;Issuer:&lt;/strong&gt; LinkedIn&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;Issued:&lt;/strong&gt; Aug 2024&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;Skill:&lt;/strong&gt; Microsoft Excel&lt;/li&gt;\n&lt;/ul&gt;"
   },
   {
     "objectID": "reflection.html",
