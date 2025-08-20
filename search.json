@@ -4,28 +4,7 @@
     "href": "skills.html",
     "title": "Skills & Certifications",
     "section": "",
-    "text": "Marketing Strategy Product Thinking Business & APA Writing Research & Analysis Presentation Design"
-  },
-  {
-    "objectID": "skills.html#core-skills-badges",
-    "href": "skills.html#core-skills-badges",
-    "title": "Skills & Certifications",
-    "section": "",
-    "text": "Marketing Strategy Product Thinking Business & APA Writing Research & Analysis Presentation Design"
-  },
-  {
-    "objectID": "skills.html#tools-badges",
-    "href": "skills.html#tools-badges",
-    "title": "Skills & Certifications",
-    "section": "Tools (Badges)",
-    "text": "Tools (Badges)\n\nQuarto / Markdown Excel PowerPoint Figma LLMs (Outline & Edit)"
-  },
-  {
-    "objectID": "skills.html#certifications",
-    "href": "skills.html#certifications",
-    "title": "Skills & Certifications",
-    "section": "Certifications",
-    "text": "Certifications\n\n\n&lt;div class=\"cert-head\"&gt;\n  &lt;span class=\"tag tag--cert\"&gt;Certificate&lt;/span&gt;\n  &lt;h3&gt;Introduction to Basic Game Development using Scratch&lt;/h3&gt;\n&lt;/div&gt;\n&lt;ul&gt;\n  &lt;li&gt;&lt;strong&gt;Issuer:&lt;/strong&gt; Coursera Project Network&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;Issued:&lt;/strong&gt; Aug 2025&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;Credential ID:&lt;/strong&gt; JOYBMPGPL9J3&lt;/li&gt;\n&lt;/ul&gt;\n\n\n&lt;div class=\"cert-head\"&gt;\n  &lt;span class=\"tag tag--cert\"&gt;Certificate&lt;/span&gt;\n  &lt;h3&gt;Master Microsoft Excel&lt;/h3&gt;\n&lt;/div&gt;\n&lt;ul&gt;\n  &lt;li&gt;&lt;strong&gt;Issuer:&lt;/strong&gt; LinkedIn&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;Issued:&lt;/strong&gt; Aug 2024&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;Skill:&lt;/strong&gt; Microsoft Excel&lt;/li&gt;\n&lt;/ul&gt;"
+    "text": "Core Skills\n\n📊 Marketing Strategy 📝 Business Writing 📈 Data Analysis 🤝 Team Collaboration 🎯 Project Management\n\n\n\nTools & Technologies\n\nExcel & Google Sheets Tableau Power BI Quarto / Markdown Figma Canva ChatGPT & LLMs\n\n\n\nCertifications\n\n\n\n&lt;img src=\"assets/coursera.png\" alt=\"Coursera Logo\" class=\"cert-logo\"/&gt;\n&lt;h3&gt;Introduction to Basic Game Development using Scratch&lt;/h3&gt;\n\n\n\nProvider: Coursera Project Network\n\n\nCompleted: 2024\n\n\n\n\n\n&lt;img src=\"assets/linkedin.png\" alt=\"LinkedIn Logo\" class=\"cert-logo\"/&gt;\n&lt;h3&gt;Digital Marketing Foundations&lt;/h3&gt;\n\n\n\nProvider: LinkedIn Learning\n\n\nCompleted: 2024\n\n\n\n\n\n&lt;img src=\"assets/linkedin.png\" alt=\"LinkedIn Logo\" class=\"cert-logo\"/&gt;\n&lt;h3&gt;Artificial Intelligence in Marketing&lt;/h3&gt;\n\n\n\nProvider: LinkedIn Learning\n\n\nCompleted: 2025"
   },
   {
     "objectID": "reflection.html",
