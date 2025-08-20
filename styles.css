@@ -107,18 +107,3 @@ figure img {
   background: #0c7cb9;
 }
 
-
-/* --- Skill form styling --- */
-.badge-row { margin: .5rem 0 1rem; }
-.tag {
-  display: inline-block;
-  padding: .35rem .6rem;
-  margin: .2rem .3rem .2rem 0;
-  background: #f3f9ff;
-  color: #075985;
-  border: 1px solid #dbeafe;
-  border-radius: 999px;
-  font-size: .9rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
