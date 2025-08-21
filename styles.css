@@ -157,27 +157,31 @@ h1, h2, h3 {
   background: #28a745;
 }
 
-/* === Certifications === */
+/* Certification cards container */
 .certs {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
-  margin-top: 1rem;
+  margin-top: 15px;
 }
 
+/* Individual card */
 .cert-card {
+  flex: 1 1 300px;
   background: #fff;
-  border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* Hover effect */
 .cert-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 14px rgba(0,0,0,0.15);
 }
 
+/* Head section with logo + title */
 .cert-head {
   display: flex;
   align-items: center;
@@ -188,56 +192,11 @@ h1, h2, h3 {
 .cert-logo {
   width: 40px;
   height: 40px;
-  border-radius: 6px;
   object-fit: contain;
 }
 
 .cert-card h3 {
-  font-size: 1.1rem;
   margin: 0;
-  color: #222;
-}
-
-.cert-card p {
-  font-size: 0.95rem;
-  margin: 0.4rem 0 0;
-  color: #444;
-}
-
-/* === Responsive tweaks === */
-@media (max-width: 600px) {
-  .badges {
-    justify-content: center;
-  }
-  
-  .certs {
-    grid-template-columns: 1fr;
-  }
-}
-.certs {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 1rem;
-}
-
-.cert-card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.cert-card.coursera {
-  border-left: 6px solid #f89820; /* Coursera orange */
-}
-
-.cert-card.linkedin {
-  border-left: 6px solid #0A66C2; /* LinkedIn blue */
-}
-
-.cert-logo {
-  width: 40px;
-  height: auto;
-  margin-right: 10px;
+  font-size: 1.1rem;
+  color: #333;
 }
