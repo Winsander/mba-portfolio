@@ -301,57 +301,57 @@ h1, h2, h3 {
 
 
 
-/* --- Projects styling --- */
+/* === Projects Section === */
 .projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  margin-top: 20px;
+  gap: 20px;
+  margin-top: 1rem;
 }
 
 .project-card {
   flex: 1 1 320px;
   background: #fff;
   border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
 }
 
-.project-img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
+.project-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
 }
 
-.project-body {
-  padding: 16px;
+.project-icon {
+  font-size: 1.5rem;
+  color: var(--brand, #0ea5e9);
 }
 
-.project-body h3 {
-  margin: 0 0 8px 0;
-  font-size: 1.2rem;
-  color: #222;
+.project-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
 }
 
-.project-body p {
-  margin: 0 0 12px 0;
-  font-size: 0.95rem;
+.tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
-.project-link {
-  display: inline-block;
-  margin-top: 6px;
-  font-weight: 600;
-  color: var(--brand);
-  text-decoration: none;
-}
-
-.project-link:hover {
-  text-decoration: underline;
+.tag {
+  background: #0ea5e9;
+  color: white;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 20px;
 }
