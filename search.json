@@ -28,11 +28,88 @@
     "text": "Certifications\n\n\n\n\n\n\nCoursera Logo\n\n\n\nIntroduction to Basic Game Development using Scratch\n\n\nIssuer: Coursera Project Network\nIssued: Aug 2025\n\n\n\n\n\n\nLinkedIn Logo\n\n\n\nMaster Microsoft Excel\n\n\nIssuer: LinkedIn\nIssued: Aug 2024\nSkills: Microsoft Excel"
   },
   {
-    "objectID": "reflection.html",
-    "href": "reflection.html",
-    "title": "Reflection on LLM Use (Assignment 3)",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects & Case Studies",
     "section": "",
-    "text": "Reflection (300–500 words)\nExpanding the site from a single page to multiple pages made my process more structured. For brainstorming, I used an LLM to propose a site map and initial copy for each page. That worked well for breaking the blank-page problem and for suggesting headings I might have missed (for example, adding a separate Leadership page and moving contact info into its own page). As the site grew, the LLM also helped me rephrase sentences to be clearer and more concise so that each page stayed focused.\nTo keep the content authentic, I followed a simple rule: the LLM can suggest, but I decide and rewrite. I replaced generic language with my own details (courses I actually took, real assignments I completed, and the tools I know). I also cross-checked dates and course codes. For projects, I added context from my own notes instead of trying to invent new claims. Where I referenced ideas or statistics, I either cited sources in APA or removed the claim. When an LLM recommended something I couldn’t verify, I left it out.\nTechnically, Quarto made the expansion straightforward. I split content into .qmd files, configured navigation in **_quarto.yml, and added a minimal styles.css**. This improved readability and made the site easier to maintain. I found it helpful to keep sections short, use callouts for quick links, and add internal links between pages (e.g., Projects → Resume).\nOverall, the LLM improved my speed and organization, but the quality depended on my editing. The key is to use the model to draft and then apply my own judgment to refine, verify, and personalize. That balance kept the site accurate and in my voice while still benefiting from AI assistance."
+    "text": "Projects & Case Studies\n\n\n\nNetflix Advertising Strategy\n\n\nMarketing Report • BUSI 654\n\n\n\nAudience segmentation and ad format recommendations\n\n\nCreative testing plan and success metrics\n\n\nAPA deliverable built and exported via Quarto\n\n\n\n\n\nMyChef Connex — Organizational Diagnosis\n\n\nOperations & HR\n\n\n\nSeasonality and staffing pipeline analysis\n\n\nPESTEL, Five Forces, and SWOT summary\n\n\nMarketing and partnership recommendations\n\n\n\n\n\nCompassTap (Student Transit App)\n\n\nConcept & Positioning\n\n\n\n“Navigation for Metro Vancouver students” positioning\n\n\nDeals + safety updates in one interface\n\n\nNext: Figma wireframes and competitive map"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home / About",
+    "section": "",
+    "text": "I’m an MBA candidate at University Canada West, with a B.Sc. in Agriculture (TNAU, 2018–2022).\nI focus on marketing strategy, product thinking, and AI-assisted analysis.\nThis site expands my one-page portfolio into a multi-page view of my work, skills, and interests.\n\n\n\n\n\n\nQuick Links\n\n\n\n\n📄 Resume\n🧪 Projects & Case Studies\n🧰 Skills & Certifications\n🤝 Contact\n\n\n\n\n\n\nMarketing Report — Netflix Advertising (BUSI 654): 1,500–2,000 words, APA-style; used LLMs for outline ideation and Quarto for publishing.\n\nOrganizational Diagnosis — MyChef Connex: Focused on staffing for remote camps in BC; identified seasonality, marketing gaps, and gatekeeping risks.\n\nCompassTap (Student Transit App): Venture concept combining navigation, real-time updates, and student discounts for Metro Vancouver.\n\n\n\n\n\nHow to evaluate and compare LLMs for business tasks.\n\nPractical game development skills (beginner level) using visual tools.\n\nClear, human-centered writing that turns analysis into action."
+  },
+  {
+    "objectID": "index.html#highlights",
+    "href": "index.html#highlights",
+    "title": "Home / About",
+    "section": "",
+    "text": "Marketing Report — Netflix Advertising (BUSI 654): 1,500–2,000 words, APA-style; used LLMs for outline ideation and Quarto for publishing.\n\nOrganizational Diagnosis — MyChef Connex: Focused on staffing for remote camps in BC; identified seasonality, marketing gaps, and gatekeeping risks.\n\nCompassTap (Student Transit App): Venture concept combining navigation, real-time updates, and student discounts for Metro Vancouver."
+  },
+  {
+    "objectID": "index.html#what-im-exploring",
+    "href": "index.html#what-im-exploring",
+    "title": "Home / About",
+    "section": "",
+    "text": "How to evaluate and compare LLMs for business tasks.\n\nPractical game development skills (beginner level) using visual tools.\n\nClear, human-centered writing that turns analysis into action."
+  },
+  {
+    "objectID": "appendix.html",
+    "href": "appendix.html",
+    "title": "Appendix — LLM Drafts & Revisions",
+    "section": "",
+    "text": "Home/About\nResume / CV\nProjects & Case Studies\nSkills & Certifications\nContact\n(Optional) Leadership & Community"
+  },
+  {
+    "objectID": "appendix.html#homeabout-llm-draft-my-edits",
+    "href": "appendix.html#homeabout-llm-draft-my-edits",
+    "title": "Appendix — LLM Drafts & Revisions",
+    "section": "Home/About (LLM Draft → My Edits)",
+    "text": "Home/About (LLM Draft → My Edits)\n\nLLM Draft: “Winston is an MBA student passionate about leveraging cutting-edge tools to drive impact.”\nMy Edit: “I’m an MBA candidate who likes clear thinking, clean writing, and practical tools that help teams move faster.”"
+  },
+  {
+    "objectID": "appendix.html#projects-llm-draft-my-edits",
+    "href": "appendix.html#projects-llm-draft-my-edits",
+    "title": "Appendix — LLM Drafts & Revisions",
+    "section": "Projects (LLM Draft → My Edits)",
+    "text": "Projects (LLM Draft → My Edits)\n\nLLM Draft: “Include 5–7 high-profile projects with metrics.”\nMy Edit: I listed the three that matter right now and added context I can stand behind. I removed unverifiable metrics."
+  },
+  {
+    "objectID": "appendix.html#skills-llm-draft-my-edits",
+    "href": "appendix.html#skills-llm-draft-my-edits",
+    "title": "Appendix — LLM Drafts & Revisions",
+    "section": "Skills (LLM Draft → My Edits)",
+    "text": "Skills (LLM Draft → My Edits)\n\nLLM Draft: “Expert in Python, SQL, and machine learning.”\nMy Edit: Accurate skills for today: Quarto/Markdown, PowerPoint/Excel, Figma basics, and using LLMs for drafting and editing."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always open to new opportunities, collaborations, and conversations.\nIf you’d like to connect about projects, research, or professional opportunities, here’s how you can reach me:"
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always open to new opportunities, collaborations, and conversations.\nIf you’d like to connect about projects, research, or professional opportunities, here’s how you can reach me:"
+  },
+  {
+    "objectID": "contact.html#direct-contact",
+    "href": "contact.html#direct-contact",
+    "title": "Contact",
+    "section": "Direct Contact",
+    "text": "Direct Contact\n\n📧 Email: winstonchrist99@gmail.com\n\n🔗 LinkedIn: linkedin.com/in/winston-christopher\n\n💻 GitHub: winsander"
+  },
+  {
+    "objectID": "contact.html#quick-message",
+    "href": "contact.html#quick-message",
+    "title": "Contact",
+    "section": "Quick Message",
+    "text": "Quick Message\n\nName \nEmail \nMessage\n\n\nSend Message\n\n\n\n\nAvailability\n📍 Based in Vancouver, Canada\nAvailable for part-time roles, internships, and collaborative projects in marketing, strategy, and business analysis."
   },
   {
     "objectID": "leadership.html",
@@ -68,90 +145,6 @@
     "title": "Leadership & Community",
     "section": "Recognition",
     "text": "Recognition\n\nConsistently acknowledged by peers for being organized and dependable.\n\nKnown for creating structured outlines and clear communication, especially under tight deadlines.\n\nInstructors highlighted strong leadership in group assignments and practical problem-solving."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "I’m always open to new opportunities, collaborations, and conversations.\nIf you’d like to connect about projects, research, or professional opportunities, here’s how you can reach me:"
-  },
-  {
-    "objectID": "contact.html#get-in-touch",
-    "href": "contact.html#get-in-touch",
-    "title": "Contact",
-    "section": "",
-    "text": "I’m always open to new opportunities, collaborations, and conversations.\nIf you’d like to connect about projects, research, or professional opportunities, here’s how you can reach me:"
-  },
-  {
-    "objectID": "contact.html#direct-contact",
-    "href": "contact.html#direct-contact",
-    "title": "Contact",
-    "section": "Direct Contact",
-    "text": "Direct Contact\n\n📧 Email: winstonchrist99@gmail.com\n\n🔗 LinkedIn: linkedin.com/in/winston-christopher\n\n💻 GitHub: winsander"
-  },
-  {
-    "objectID": "contact.html#quick-message",
-    "href": "contact.html#quick-message",
-    "title": "Contact",
-    "section": "Quick Message",
-    "text": "Quick Message\n\nName \nEmail \nMessage\n\n\nSend Message\n\n\n\n\nAvailability\n📍 Based in Vancouver, Canada\nAvailable for part-time roles, internships, and collaborative projects in marketing, strategy, and business analysis."
-  },
-  {
-    "objectID": "appendix.html",
-    "href": "appendix.html",
-    "title": "Appendix — LLM Drafts & Revisions",
-    "section": "",
-    "text": "Home/About\nResume / CV\nProjects & Case Studies\nSkills & Certifications\nContact\n(Optional) Leadership & Community"
-  },
-  {
-    "objectID": "appendix.html#homeabout-llm-draft-my-edits",
-    "href": "appendix.html#homeabout-llm-draft-my-edits",
-    "title": "Appendix — LLM Drafts & Revisions",
-    "section": "Home/About (LLM Draft → My Edits)",
-    "text": "Home/About (LLM Draft → My Edits)\n\nLLM Draft: “Winston is an MBA student passionate about leveraging cutting-edge tools to drive impact.”\nMy Edit: “I’m an MBA candidate who likes clear thinking, clean writing, and practical tools that help teams move faster.”"
-  },
-  {
-    "objectID": "appendix.html#projects-llm-draft-my-edits",
-    "href": "appendix.html#projects-llm-draft-my-edits",
-    "title": "Appendix — LLM Drafts & Revisions",
-    "section": "Projects (LLM Draft → My Edits)",
-    "text": "Projects (LLM Draft → My Edits)\n\nLLM Draft: “Include 5–7 high-profile projects with metrics.”\nMy Edit: I listed the three that matter right now and added context I can stand behind. I removed unverifiable metrics."
-  },
-  {
-    "objectID": "appendix.html#skills-llm-draft-my-edits",
-    "href": "appendix.html#skills-llm-draft-my-edits",
-    "title": "Appendix — LLM Drafts & Revisions",
-    "section": "Skills (LLM Draft → My Edits)",
-    "text": "Skills (LLM Draft → My Edits)\n\nLLM Draft: “Expert in Python, SQL, and machine learning.”\nMy Edit: Accurate skills for today: Quarto/Markdown, PowerPoint/Excel, Figma basics, and using LLMs for drafting and editing."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home / About",
-    "section": "",
-    "text": "I’m an MBA candidate at University Canada West, with a B.Sc. in Agriculture (TNAU, 2018–2022).\nI focus on marketing strategy, product thinking, and AI-assisted analysis.\nThis site expands my one-page portfolio into a multi-page view of my work, skills, and interests.\n\n\n\n\n\n\nQuick Links\n\n\n\n\n📄 Resume\n🧪 Projects & Case Studies\n🧰 Skills & Certifications\n🤝 Contact\n\n\n\n\n\n\nMarketing Report — Netflix Advertising (BUSI 654): 1,500–2,000 words, APA-style; used LLMs for outline ideation and Quarto for publishing.\n\nOrganizational Diagnosis — MyChef Connex: Focused on staffing for remote camps in BC; identified seasonality, marketing gaps, and gatekeeping risks.\n\nCompassTap (Student Transit App): Venture concept combining navigation, real-time updates, and student discounts for Metro Vancouver.\n\n\n\n\n\nHow to evaluate and compare LLMs for business tasks.\n\nPractical game development skills (beginner level) using visual tools.\n\nClear, human-centered writing that turns analysis into action."
-  },
-  {
-    "objectID": "index.html#highlights",
-    "href": "index.html#highlights",
-    "title": "Home / About",
-    "section": "",
-    "text": "Marketing Report — Netflix Advertising (BUSI 654): 1,500–2,000 words, APA-style; used LLMs for outline ideation and Quarto for publishing.\n\nOrganizational Diagnosis — MyChef Connex: Focused on staffing for remote camps in BC; identified seasonality, marketing gaps, and gatekeeping risks.\n\nCompassTap (Student Transit App): Venture concept combining navigation, real-time updates, and student discounts for Metro Vancouver."
-  },
-  {
-    "objectID": "index.html#what-im-exploring",
-    "href": "index.html#what-im-exploring",
-    "title": "Home / About",
-    "section": "",
-    "text": "How to evaluate and compare LLMs for business tasks.\n\nPractical game development skills (beginner level) using visual tools.\n\nClear, human-centered writing that turns analysis into action."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects & Case Studies",
-    "section": "",
-    "text": "Projects & Case Studies\n\n\n\nNetflix Advertising Strategy\n\n\nMarketing Report • BUSI 654\n\n\n\nAudience segmentation and ad format recommendations\n\n\nCreative testing plan and success metrics\n\n\nAPA deliverable built and exported via Quarto\n\n\n\n\n\nMyChef Connex — Organizational Diagnosis\n\n\nOperations & HR\n\n\n\nSeasonality and staffing pipeline analysis\n\n\nPESTEL, Five Forces, and SWOT summary\n\n\nMarketing and partnership recommendations\n\n\n\n\n\nCompassTap (Student Transit App)\n\n\nConcept & Positioning\n\n\n\n“Navigation for Metro Vancouver students” positioning\n\n\nDeals + safety updates in one interface\n\n\nNext: Figma wireframes and competitive map"
   },
   {
     "objectID": "resume.html",
