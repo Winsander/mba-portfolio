@@ -204,3 +204,10 @@ h1, h2, h3 {
 /* Optional: issuer accents */
 .cert-card:nth-child(1) { border-left: 6px solid #f89820; } /* Coursera orange */
 .cert-card:nth-child(2) { border-left: 6px solid #0A66C2; } /* LinkedIn blue */
+
+.cert-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #222;
+}
