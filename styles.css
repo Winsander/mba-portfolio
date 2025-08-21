@@ -474,17 +474,28 @@ h1, h2, h3 {
   font-size: .87rem;
 }
 
-/* Actions row */
-.resume-actions a {
-  display: inline-block;
-  background: #0ea5e9;
-  color: #fff;
-  text-decoration: none;
-  padding: .55rem .85rem;
-  border-radius: 10px;
-  margin-right: .5rem;
-  border: 1px solid rgba(14,165,233,.6);
+/* Resume actions - neat buttons */
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin-top: .6rem;
 }
-.resume-actions a:hover {
-  background: #0c98d4;
+
+.resume-actions a.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  background: #0ea5e9;
+  color: #fff !important;
+  text-decoration: none;
+  padding: .55rem .9rem;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 1px solid rgba(14,165,233,.6);
+  transition: background .2s;
+}
+
+.resume-actions a.resume-btn:hover {
+  background: #0284c7;
 }
