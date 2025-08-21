@@ -142,43 +142,57 @@
   {
     "objectID": "resume.html",
     "href": "resume.html",
-    "title": "Resume / CV",
+    "title": "Resume",
     "section": "",
-    "text": "Download: Resume (PDF)\n\n\n\nMBA, University Canada West — Expected 2025\nB.Sc. Agriculture, TNAU — 2018–2022\n\n\n\n\n\nCourse Projects (MBA) — Strategy, marketing analysis, and APA deliverables using Quarto.\n\nRan structured outlines with LLMs; rewrote for clarity and accuracy.\n\nBuilt a multi-page portfolio site and published to GitHub Pages.\n\n\n\n\n\n\nNetflix Advertising Strategy (BUSI 654)\nAudience segmentation, ad formats, creative testing plan, measurement framework.\nMyChef Connex — Org Diagnosis\nHR/ops alignment, seasonality and pipeline risks, marketing/partnership recommendations.\nCompassTap (Student Transit App)\nConcept, positioning, early wireframes; student deals + transit info.\n\n\n\n\n\nSkills: Marketing strategy, product thinking, business writing, APA formatting\n\nTools: Quarto/Markdown, Excel, PowerPoint, Figma, LLMs (outlining + editing)\n\n\n\n\n\nCoursera: Introduction to Basic Game Development (Scratch)"
+    "text": "Vancouver, Canada • winstonchrist99@gmail.com • LinkedIn • GitHub\n\n\n\n\n\nMBA candidate at University Canada West with a B.Sc. in Agriculture (TNAU). I focus on marketing strategy, product thinking, and AI-assisted analysis. Recent work includes a Netflix ads strategy, a student transit app concept, and organizational diagnosis for a staffing firm. Strong with structured problems, clear writing, and building simple systems that scale.\n\n\n\n\n\n\n\nResearch • Market Sizing • Recommendation Writing\n2025\n- Built a launch strategy for the ad-supported tier using consumer insights, SWOT, and scenario analysis.\n- Wrote an APA-style report and presentation; synthesized learnings into a succinct playbook for campaign decisions.\n\n\n\nPrototyping • UX Flows • Competitive Scan\n2025\n- Designed a student-focused transit companion for Metro Vancouver: balance tracking, simple navigation, and campus discount integration.\n- Created flows/wireframes; defined MVP scope and near-term milestones.\n\n\n\nOps Review • Risk Analysis • Prioritization\n2025\n- Identified seasonal/operational challenges for a staffing firm; prioritized quick wins and longer-term marketing + HR actions.\n- Framed recommendations around clear owners, timelines, and measurable outcomes.\n\n\n\n\n\n\n\nMBA, University Canada West — 2024–2025\nFocus: Marketing, Strategy, Analytics\nB.Sc. (Hons), Agriculture, TNAU — 2018–2022\nEmphasis: Agribusiness & General Agriculture\n\n\n\n\n\n\n\nNetflix Advertising Strategy — Strategic plan for ad-supported tier; consumer research, SWOT, and campaign recommendations.\n\nCompassTap Transit App — Concept + flows; UX, prototyping, and student discounts integration.\n\nLeadership Reflection & Toolkit — Playbook with kickoff agenda, decision log, weekly update template.\n\n\n\n\n\n\nMarketing Strategy Business Analysis Product Thinking Prototyping UX/UI User Research SWOT/P.E.S.T.L.E Funnel & Metrics A/B Concepts AI-assisted Writing Quarto Excel Tableau PowerPoint Figma Canva\n\n\n\n\n\n\nIntroduction to Basic Game Development using Scratch — Coursera Project Network (Aug 2025)\n\nMaster Microsoft Excel — LinkedIn (Aug 2024)\n\n\n\n\n\n\n\n📄 Download PDF: assets/resume.pdf\n\n🔗 Portfolio: winsander.github.io/mba-portfolio"
+  },
+  {
+    "objectID": "resume.html#summary",
+    "href": "resume.html#summary",
+    "title": "Resume",
+    "section": "",
+    "text": "MBA candidate at University Canada West with a B.Sc. in Agriculture (TNAU). I focus on marketing strategy, product thinking, and AI-assisted analysis. Recent work includes a Netflix ads strategy, a student transit app concept, and organizational diagnosis for a staffing firm. Strong with structured problems, clear writing, and building simple systems that scale."
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
+    "section": "",
+    "text": "Research • Market Sizing • Recommendation Writing\n2025\n- Built a launch strategy for the ad-supported tier using consumer insights, SWOT, and scenario analysis.\n- Wrote an APA-style report and presentation; synthesized learnings into a succinct playbook for campaign decisions.\n\n\n\nPrototyping • UX Flows • Competitive Scan\n2025\n- Designed a student-focused transit companion for Metro Vancouver: balance tracking, simple navigation, and campus discount integration.\n- Created flows/wireframes; defined MVP scope and near-term milestones.\n\n\n\nOps Review • Risk Analysis • Prioritization\n2025\n- Identified seasonal/operational challenges for a staffing firm; prioritized quick wins and longer-term marketing + HR actions.\n- Framed recommendations around clear owners, timelines, and measurable outcomes."
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
-    "title": "Resume / CV",
+    "title": "Resume",
     "section": "",
-    "text": "MBA, University Canada West — Expected 2025\nB.Sc. Agriculture, TNAU — 2018–2022"
+    "text": "MBA, University Canada West — 2024–2025\nFocus: Marketing, Strategy, Analytics\nB.Sc. (Hons), Agriculture, TNAU — 2018–2022\nEmphasis: Agribusiness & General Agriculture"
   },
   {
-    "objectID": "resume.html#experience-selected",
-    "href": "resume.html#experience-selected",
-    "title": "Resume / CV",
+    "objectID": "resume.html#selected-projects",
+    "href": "resume.html#selected-projects",
+    "title": "Resume",
     "section": "",
-    "text": "Course Projects (MBA) — Strategy, marketing analysis, and APA deliverables using Quarto.\n\nRan structured outlines with LLMs; rewrote for clarity and accuracy.\n\nBuilt a multi-page portfolio site and published to GitHub Pages."
+    "text": "Netflix Advertising Strategy — Strategic plan for ad-supported tier; consumer research, SWOT, and campaign recommendations.\n\nCompassTap Transit App — Concept + flows; UX, prototyping, and student discounts integration.\n\nLeadership Reflection & Toolkit — Playbook with kickoff agenda, decision log, weekly update template."
   },
   {
-    "objectID": "resume.html#projects",
-    "href": "resume.html#projects",
-    "title": "Resume / CV",
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
     "section": "",
-    "text": "Netflix Advertising Strategy (BUSI 654)\nAudience segmentation, ad formats, creative testing plan, measurement framework.\nMyChef Connex — Org Diagnosis\nHR/ops alignment, seasonality and pipeline risks, marketing/partnership recommendations.\nCompassTap (Student Transit App)\nConcept, positioning, early wireframes; student deals + transit info."
-  },
-  {
-    "objectID": "resume.html#skills-tools",
-    "href": "resume.html#skills-tools",
-    "title": "Resume / CV",
-    "section": "",
-    "text": "Skills: Marketing strategy, product thinking, business writing, APA formatting\n\nTools: Quarto/Markdown, Excel, PowerPoint, Figma, LLMs (outlining + editing)"
+    "text": "Marketing Strategy Business Analysis Product Thinking Prototyping UX/UI User Research SWOT/P.E.S.T.L.E Funnel & Metrics A/B Concepts AI-assisted Writing Quarto Excel Tableau PowerPoint Figma Canva"
   },
   {
     "objectID": "resume.html#certifications",
     "href": "resume.html#certifications",
-    "title": "Resume / CV",
+    "title": "Resume",
     "section": "",
-    "text": "Coursera: Introduction to Basic Game Development (Scratch)"
+    "text": "Introduction to Basic Game Development using Scratch — Coursera Project Network (Aug 2025)\n\nMaster Microsoft Excel — LinkedIn (Aug 2024)"
+  },
+  {
+    "objectID": "resume.html#links-downloads",
+    "href": "resume.html#links-downloads",
+    "title": "Resume",
+    "section": "",
+    "text": "📄 Download PDF: assets/resume.pdf\n\n🔗 Portfolio: winsander.github.io/mba-portfolio"
   }
 ]

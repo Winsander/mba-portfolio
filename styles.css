@@ -398,3 +398,93 @@ h1, h2, h3 {
     font-size: 0.82rem;
   }
 }
+
+
+
+
+/* =======================
+   Resume Page Styling
+   ======================= */
+
+/* Simple header line under contact row */
+.resume-header {
+  padding: .25rem 0 .75rem 0;
+  border-bottom: 1px solid rgba(2,132,199,.15);
+  margin-bottom: .5rem;
+  font-size: 1rem;
+  color: #334155; /* slate-700 */
+}
+
+/* Generic card */
+.resume-card {
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid rgba(2,132,199,.12);
+  box-shadow: 0 6px 16px rgba(0,0,0,.06);
+  padding: 1rem 1.1rem;
+  margin: .85rem 0;
+  line-height: 1.55;
+  color: #374151;
+}
+
+/* Timeline list */
+.resume-timeline > * {
+  background: #fff;
+  border-left: 4px solid #0ea5e9;  /* cyan accent */
+  padding: .75rem 1rem .75rem 1rem;
+  margin: .9rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.05);
+  border-top: 1px solid rgba(2,132,199,.10);
+  border-right: 1px solid rgba(2,132,199,.10);
+  border-bottom: 1px solid rgba(2,132,199,.10);
+}
+
+/* Education grid */
+.resume-grid {
+  display: grid;
+  gap: .75rem;
+}
+@media (min-width: 820px) {
+  .resume-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Compact project cards group */
+.resume-cards > * {
+  background: #fff;
+  border-radius: 12px;
+  padding: .8rem .9rem;
+  border: 1px solid rgba(2,132,199,.12);
+  box-shadow: 0 4px 12px rgba(0,0,0,.05);
+  margin: .5rem 0;
+}
+
+/* Badge cloud (style inline code as pills) */
+.badge-cloud code {
+  display: inline-block;
+  padding: .35rem .6rem;
+  margin: .18rem .25rem .18rem 0;
+  border-radius: 999px;
+  background: #e0f2fe;     /* sky-100 */
+  border: 1px solid #bae6fd; /* sky-200 */
+  color: #075985;          /* sky-800 */
+  font-weight: 600;
+  font-size: .87rem;
+}
+
+/* Actions row */
+.resume-actions a {
+  display: inline-block;
+  background: #0ea5e9;
+  color: #fff;
+  text-decoration: none;
+  padding: .55rem .85rem;
+  border-radius: 10px;
+  margin-right: .5rem;
+  border: 1px solid rgba(14,165,233,.6);
+}
+.resume-actions a:hover {
+  background: #0c98d4;
+}
