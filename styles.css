@@ -328,8 +328,40 @@ h1, h2, h3 {
 .tags { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .5rem; }
 .tag { background: #0ea5e9; color:#fff; padding: .28rem .7rem; border-radius: 999px; font-size: .8rem; }
 
-/* Icon colors */
-.icon-strategy   { color: #ff5722; }
-.icon-transit    { color: #2196f3; }
-.icon-consulting { color: #ff9800; }
-.icon-leadership { color: #9c27b0; }
+/* Project head: icon on the left, title on the right */
+.project-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: .4rem;
+}
+
+/* Circular colored icon badge */
+.icon-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,.08);
+  transition: transform .2s ease, filter .2s ease, opacity .2s ease;
+}
+
+.icon-badge i { 
+  font-size: 18px; 
+  color: #fff; 
+}
+
+.icon-badge:hover {
+  transform: scale(1.08);
+  filter: drop-shadow(0 0 6px rgba(0,0,0,.25));
+  opacity: .95;
+}
+
+/* Colors per project type */
+.icon-strategy   { background: #ff5722; } /* orange */
+.icon-transit    { background: #2196f3; } /* blue   */
+.icon-consulting { background: #ff9800; } /* orange */
+.icon-leadership { background: #9c27b0; } /* purple */
