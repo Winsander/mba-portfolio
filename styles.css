@@ -301,14 +301,15 @@ h1, h2, h3 {
 
 
 
-/* === Projects Section === */
+/* Projects grid */
 .projects {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  margin-top: 1rem;
+  margin-top: 0.75rem;
 }
 
+/* Project card */
 .project-card {
   flex: 1 1 320px;
   background: #fff;
@@ -317,40 +318,38 @@ h1, h2, h3 {
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
 .project-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 6px 14px rgba(0,0,0,0.12);
 }
 
+/* Header with icon + title */
 .project-head {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
-
-.project-icon {
-  font-size: 1.5rem;
+.project-head i {
+  font-size: 1.35rem;               /* size for Font Awesome icon */
   color: var(--brand, #0ea5e9);
 }
-
 .project-card h3 {
   margin: 0;
   font-size: 1.1rem;
   color: #333;
 }
 
+/* Tags */
 .tags {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
-
 .tag {
-  background: #0ea5e9;
-  color: white;
+  background: var(--brand, #0ea5e9);
+  color: #fff;
   font-size: 0.8rem;
   padding: 4px 10px;
   border-radius: 20px;
