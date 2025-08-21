@@ -200,3 +200,7 @@ h1, h2, h3 {
   font-size: 1.1rem;
   color: #333;
 }
+
+/* Optional: issuer accents */
+.cert-card:nth-child(1) { border-left: 6px solid #f89820; } /* Coursera orange */
+.cert-card:nth-child(2) { border-left: 6px solid #0A66C2; } /* LinkedIn blue */
