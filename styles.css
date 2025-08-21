@@ -403,99 +403,225 @@ h1, h2, h3 {
 
 
 /* =======================
-   Resume Page Styling
+   Resume — Refined Theme
    ======================= */
 
-/* Simple header line under contact row */
-.resume-header {
-  padding: .25rem 0 .75rem 0;
-  border-bottom: 1px solid rgba(2,132,199,.15);
-  margin-bottom: .5rem;
-  font-size: 1rem;
-  color: #334155; /* slate-700 */
+:root{
+  --resume-ink: #0f172a;         /* slate-900 */
+  --resume-body: #334155;        /* slate-700 */
+  --resume-muted: #64748b;       /* slate-500 */
+  --resume-accent: #0ea5e9;      /* sky-500 */
+  --resume-accent-2: #22c55e;    /* green-500 */
+  --resume-card: #ffffff;
+  --resume-line: rgba(2,132,199,.18);
+  --resume-shadow: 0 8px 24px rgba(2,132,199,.10);
 }
 
-/* Generic card */
-.resume-card {
-  background: #fff;
+/* ---------- Header ---------- */
+
+.resume-header{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-end;
+  gap:.6rem 1rem;
+  padding: .25rem 0 1rem 0;
+  border-bottom: 2px solid var(--resume-line);
+  margin-bottom: .75rem;
+  color: var(--resume-body);
+}
+
+.resume-header strong,
+.resume-header b{
+  color: var(--resume-ink);
+}
+
+/* Make the first line (name) pop if you put it as a heading */
+h1 + .resume-header,
+h2 + .resume-header,
+h3 + .resume-header{
+  margin-top:-.25rem;
+}
+
+/* ---------- Section Titles ---------- */
+
+#resume ~ h2, /* fallback if using a wrapper id */
+h2{
+  position:relative;
+  margin-top: 1.25rem;
+  margin-bottom: .6rem;
+  color: var(--resume-ink);
+  letter-spacing:.2px;
+}
+
+h2::after{
+  content:"";
+  display:block;
+  height:3px;
+  width:64px;
+  margin-top:.35rem;
+  border-radius:8px;
+  background: linear-gradient(90deg,var(--resume-accent),var(--resume-accent-2));
+  opacity:.9;
+}
+
+/* ---------- Generic Card ---------- */
+
+.resume-card{
+  background: var(--resume-card);
   border-radius: 14px;
-  border: 1px solid rgba(2,132,199,.12);
-  box-shadow: 0 6px 16px rgba(0,0,0,.06);
+  border: 1px solid var(--resume-line);
+  box-shadow: var(--resume-shadow);
   padding: 1rem 1.1rem;
   margin: .85rem 0;
-  line-height: 1.55;
-  color: #374151;
+  line-height: 1.6;
+  color: var(--resume-body);
 }
 
-/* Timeline list */
-.resume-timeline > * {
+/* ---------- Timeline ---------- */
+
+.resume-timeline{
+  display:grid;
+  gap:.9rem;
+  position:relative;
+}
+
+/* each entry */
+.resume-timeline > *{
+  position:relative;
+  background: var(--resume-card);
+  border: 1px solid var(--resume-line);
+  border-radius: 12px;
+  padding: .85rem 1rem .85rem 1.05rem;
+  box-shadow: var(--resume-shadow);
+}
+
+/* left rail */
+.resume-timeline > *::before{
+  content:"";
+  position:absolute;
+  left:-12px;
+  top:18px;
+  bottom:18px;
+  width:3px;
+  background: linear-gradient(var(--resume-accent),var(--resume-accent-2));
+  border-radius: 3px;
+  opacity:.95;
+}
+
+/* dot */
+.resume-timeline > *::after{
+  content:"";
+  position:absolute;
+  left:-17px;
+  top:18px;
+  width:12px;height:12px;
+  border-radius:50%;
   background: #fff;
-  border-left: 4px solid #0ea5e9;  /* cyan accent */
-  padding: .75rem 1rem .75rem 1rem;
-  margin: .9rem 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,.05);
-  border-top: 1px solid rgba(2,132,199,.10);
-  border-right: 1px solid rgba(2,132,199,.10);
-  border-bottom: 1px solid rgba(2,132,199,.10);
+  border:3px solid var(--resume-accent);
 }
 
-/* Education grid */
-.resume-grid {
-  display: grid;
-  gap: .75rem;
-}
-@media (min-width: 820px) {
-  .resume-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+/* ---------- Grid (Education etc.) ---------- */
+
+.resume-grid{
+  display:grid;
+  gap:.8rem;
 }
 
-/* Compact project cards group */
-.resume-cards > * {
-  background: #fff;
+@media (min-width: 880px){
+  .resume-grid{ grid-template-columns: 1fr 1fr; }
+}
+
+/* ---------- Compact Cards Group ---------- */
+
+.resume-cards > *{
+  background: var(--resume-card);
+  border: 1px solid var(--resume-line);
   border-radius: 12px;
   padding: .8rem .9rem;
-  border: 1px solid rgba(2,132,199,.12);
-  box-shadow: 0 4px 12px rgba(0,0,0,.05);
+  box-shadow: var(--resume-shadow);
   margin: .5rem 0;
 }
 
-/* Badge cloud (style inline code as pills) */
-.badge-cloud code {
-  display: inline-block;
-  padding: .35rem .6rem;
-  margin: .18rem .25rem .18rem 0;
-  border-radius: 999px;
-  background: #e0f2fe;     /* sky-100 */
-  border: 1px solid #bae6fd; /* sky-200 */
-  color: #075985;          /* sky-800 */
-  font-weight: 600;
-  font-size: .87rem;
+/* ---------- Badge Cloud ---------- */
+
+.badge-cloud code{
+  display:inline-block;
+  padding:.38rem .62rem;
+  margin:.18rem .28rem .18rem 0;
+  border-radius:999px;
+  font-weight:600;
+  font-size:.87rem;
+  color:#075985;                 /* sky-800 */
+  background:#e0f2fe;           /* sky-100 */
+  border:1px solid #bae6fd;     /* sky-200 */
 }
 
-/* Resume actions - neat buttons */
-.resume-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .6rem;
-  margin-top: .6rem;
+/* ---------- Action Buttons ---------- */
+
+.resume-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.6rem;
+  margin-top:.65rem;
 }
 
-.resume-actions a.resume-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: .4rem;
-  background: #0ea5e9;
-  color: #fff !important;
-  text-decoration: none;
-  padding: .55rem .9rem;
-  border-radius: 10px;
-  font-weight: 600;
-  border: 1px solid rgba(14,165,233,.6);
-  transition: background .2s;
+.resume-actions a{
+  --btn-bg: var(--resume-accent);
+  --btn-border: rgba(14,165,233,.55);
+  display:inline-flex;
+  align-items:center;
+  gap:.45rem;
+  text-decoration:none;
+  padding:.58rem .95rem;
+  border-radius: 11px;
+  font-weight:700;
+  color:#fff !important;
+  background: var(--btn-bg);
+  border:1px solid var(--btn-border);
+  box-shadow: 0 6px 16px rgba(2,132,199,.18);
+  transition: transform .15s ease, filter .15s ease;
 }
 
-.resume-actions a.resume-btn:hover {
-  background: #0284c7;
+.resume-actions a:hover{
+  transform: translateY(-1px);
+  filter: brightness(0.96);
+}
+
+/* Variant: secondary (use class .is-secondary on the link) */
+.resume-actions a.is-secondary{
+  --btn-bg:#0f172a;                    /* slate-900 */
+  --btn-border: rgba(15,23,42,.45);
+}
+
+/* ---------- Typography tweaks inside resume ---------- */
+
+.resume-card h4,
+.resume-timeline h4,
+.resume-cards h4{
+  margin:.1rem 0 .35rem 0;
+  color: var(--resume-ink);
+  font-weight:750;
+}
+
+.resume-card em,
+.resume-timeline em{
+  color: var(--resume-muted);
+}
+
+/* ---------- Print (nice 1–2 pages) ---------- */
+
+@media print {
+  :root{
+    --resume-line: #e5e7eb;
+    --resume-shadow: none;
+  }
+  .resume-card,
+  .resume-cards > *,
+  .resume-timeline > *{
+    box-shadow:none !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .resume-actions{ display:none !important; } /* hide buttons on print */
+  h2::after{ background:#000 !important; }
 }
